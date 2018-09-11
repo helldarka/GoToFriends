@@ -7,7 +7,7 @@ import requests
 import random
 
 token = "🔦"
-telebot.apihelper.proxy = {'https': 'socks5://tvorogme:TyhoRuiGhj1874@tvorog.me:6666'}
+telebot.apihelper.proxy = {'https': ''}
 bot = telebot.TeleBot(token=token)
 
 news_shapito = 'shapito'
